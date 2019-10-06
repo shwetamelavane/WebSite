@@ -1,0 +1,68 @@
+*,html,body
+{
+	margin:0;
+	padding: 0;
+}
+
+header
+{
+	background-color: black;
+	height: 112px;
+	line-height: 12px;
+}
+
+ul
+{
+	list-style: none;
+}
+
+ul li
+{
+	display:inline-block;
+	margin-top:50px;
+}
+
+header nav
+{
+	float: right;
+}
+
+.logo img
+{
+	margin-top: 30px;
+}
+
+header nav ul li a 
+{
+	padding-right: 30px;
+	font-weight: bold;
+	color: white;
+	transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover
+{
+	text-decoration: none;
+	color: red;	
+}
+
+.img1
+{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(..//image/sec.jpg);
+	background-size: 100% 100%;
+}
+
+.img1 
+{
+	height: 710px;
+	width:100%;
+	color: white;
+	text-align: center;
+}
+
+.img1 h2
+{
+	font-weight:bold;
+	margin-top:290px;
+}
+
